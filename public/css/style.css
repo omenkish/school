@@ -1,6 +1,8 @@
 form {
     border: 3px solid #f1f1f1;
-    width: 50%;
+    margin: 1% 25%;
+    box-shadow:  5px 8px 0 #ccc;
+    border-radius: 2%;
 }
 
 /*full width inputs*/
@@ -11,6 +13,7 @@ input[type=text],input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    
 }
 
 /* Set a style for all buttons */
@@ -20,7 +23,8 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 60%;
+    padding: 8px 14px;
 }
 
 /* Add a hover effect for buttons */
@@ -52,6 +56,8 @@ img.avatar {
 /* Add padding to containers */
 .container {
     padding: 16px;
+    width: 75%;
+    margin: 2% 10%;
 }
 
 /* The 'Forgot password' text */

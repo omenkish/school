@@ -3,38 +3,58 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link  rel="stylesheet" href="css/style.css">
+		<link  rel="stylesheet" href="css/nav.css">
 	</head>
 	
 	<body>
 		<div class ="">
+			<div class="topnav" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+				<div class="dropdown">
+
+				<button class="dropbtn" style="width: auto;"><i class="fa fa-user-plus"></i>Username <i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="#">Profile</a>
+					<a href="#">Link 2</a>
+					<a href="#">Setting</a>
+					<a href="#">Logout</a>
+				</div>
+				</div> 
+				
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      		</div>
 			<form action = "">
 				<div class = "imgcontainer">
 					<img src="images/top.png" alt="top" class = "avatar">
 				</div>
 				
 				<div class="container">
-					<label for="uname">
+					<label for="uname"><b>Username: </b>
 						<input type="text" placeholder="Enter Username" name="uname" required>
 					</label>
 
-					<label for="psw">
+					<label for="psw"><b>Password: </b>
 						<input type="password" placeholder="Enter Password" name="psw" required>
 					</label>
 
 					<button type="submit"> Login</button>
 
 					<label>
-						<input type="checkbox" checked="checked" name="Remember">
+						<input type="checkbox" checked="checked" name="Remember"> Remember me
 					</label>
+
+					<div style="background-color: #f1f1f1;">
+						<button type="button" class="cancelbtn">Cancel</button>
+						<span class="psw">Forgot <a href="#">password?</a></span>
+	
+					</div>
 				</div>
 
-				<div class="container" style="background-color: #f1f1f1;">
-					<button type="button" class="cancelbtn">Cancel</button>
-					<span class="psw">Forgot <a href="#">password?</a></span>
-
-				</div>
 			</form>
 		<div>
 	</body>
